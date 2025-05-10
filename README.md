@@ -18,6 +18,14 @@ pip install openai python-dotenv
 ```
 
 ```bash
+pip install chromadb mistralai
+```
+
+```bash
+pip install langchain_experimental langchain_openai
+```
+
+```bash
 pip freeze > requirements.txt
 ```
 Jika sudah ada ada file requirements.txt, kita bisa menjalankan perintah ini,
@@ -27,3 +35,6 @@ pip install -r requirements.txt
 
 ### Source
 - [OpenAI](https://pypi.org/project/openai/)
+- [ChromaDB](https://docs.trychroma.com/docs/overview/introduction)
+- [MistralAI](https://mistral.ai/)
+- [LangChain](https://python.langchain.com/docs/how_to/semantic-chunker/)
