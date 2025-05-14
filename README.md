@@ -21,6 +21,11 @@ pip install openai python-dotenv
 pip install chromadb mistralai
 ```
 
+Menjalankan ChromaDB, kemudian ganti port menjadi `8010`
+```bash
+chroma run --path data --port 8010
+```
+
 ```bash
 pip install langchain_experimental langchain_openai
 ```
